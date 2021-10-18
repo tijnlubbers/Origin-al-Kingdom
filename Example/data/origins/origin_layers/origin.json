@@ -1,7 +1,7 @@
 {
 	"replace": false,
   "origins": [
-      "kodaa:bender"
+      "color_group:bender"
 	]
 }
 

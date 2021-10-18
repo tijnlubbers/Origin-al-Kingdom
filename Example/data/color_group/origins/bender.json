@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"kodaa:bender/desc"
+		"color_group:bender/desc"
 	],
 	"icon": "minecraft:gray_wool",
 	"order": 10,

@@ -4,18 +4,18 @@
   {
     "condition": {
       "type": "origins:origin",
-      "origin": "kodaa:bender",
+      "origin": "color_group:bender",
       "layer": "origins:origin"
     },
     "origins": [
-      "kodaa:white",
-	    "kodaa:red",
-      "kodaa:orange",
-      "kodaa:yellow",
-      "kodaa:green",
-      "kodaa:blue",
-      "kodaa:purple",
-      "kodaa:black"
+      "color_group:white",
+	    "color_group:red",
+      "color_group:orange",
+      "color_group:yellow",
+      "color_group:green",
+      "color_group:blue",
+      "color_group:purple",
+      "color_group:black"
     ]
   }
  ]

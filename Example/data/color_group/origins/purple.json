@@ -1,7 +1,7 @@
 {
 	"powers": [
-		"kodaa:purple/desc",
-        "kodaa:purple/color"
+		"color_group:purple/desc",
+        "color_group:purple/color"
 	],
 	"icon": "minecraft:purple_wool",
 	"order": 10,
