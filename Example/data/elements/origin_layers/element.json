@@ -8,10 +8,14 @@
       "layer": "origins:origin"
     },
     "origins": [
-      "kodaa:fire_bender",
-	  "kodaa:earth_bender",
-	  "kodaa:water_bender",
-	  "kodaa:air_bender"
+      "kodaa:white",
+	    "kodaa:red",
+      "kodaa:orange",
+      "kodaa:yellow",
+      "kodaa:green",
+      "kodaa:blue",
+      "kodaa:purple",
+      "kodaa:black"
     ]
   }
  ]

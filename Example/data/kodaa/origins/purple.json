@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"kodaa:purple/desc",
+        "kodaa:purple/color"
+	],
+	"icon": "minecraft:purple_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Purple",
+	"description": "You choose the color purple."
+}

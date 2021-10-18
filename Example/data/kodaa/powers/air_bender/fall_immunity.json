@@ -1,9 +1,0 @@
-{
-  "type": "origins:invulnerability",
-  "damage_condition": {
-    "type": "origins:name",
-    "name": "fall"
-  },
-  "name": "Guidance",
-  "description": "When falling, you use the wind as guidance softening all falls from great heights."
-}

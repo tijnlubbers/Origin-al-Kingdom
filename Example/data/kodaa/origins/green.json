@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"kodaa:green/desc",
+        "kodaa:green/color"
+	],
+	"icon": "minecraft:green_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Green",
+	"description": "You choose the color green."
+}

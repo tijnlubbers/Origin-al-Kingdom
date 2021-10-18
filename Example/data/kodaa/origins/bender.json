@@ -2,9 +2,9 @@
 	"powers": [
 		"kodaa:bender/desc"
 	],
-	"icon": "origins:orb_of_origin",
+	"icon": "minecraft:gray_wool",
 	"order": 10,
 	"impact": 3,
-	"name": "§6Element Bender",
-	"description": "Unique individuals capable of harnessing each of the earth's four elements! These benders reside in nations seperated by each respective element; fire, earth, water and air."
+	"name": "Colors",
+	"description": "Stupid characters with colored skin lol."
 }
