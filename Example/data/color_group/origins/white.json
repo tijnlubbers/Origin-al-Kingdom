@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"kodaa:white/desc",
+        "kodaa:white/color"
+	],
+	"icon": "minecraft:white_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "White",
+	"description": "You choose the color white."
+}

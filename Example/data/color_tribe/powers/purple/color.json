@@ -1,0 +1,10 @@
+{
+    "type": "origins:model_color",
+    "alpha": 1,
+    "red": 1,
+      "green": 0,
+      "blue": 1,
+    "name": "Colored Body",
+    "description": "You have a purple appearence.",
+    "hidden": false
+  }

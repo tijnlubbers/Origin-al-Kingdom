@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"kodaa:red/desc",
+        "kodaa:red/color"
+	],
+	"icon": "minecraft:red_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Red",
+	"description": "You choose the color red."
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"kodaa:bender/desc"
+	],
+	"icon": "minecraft:gray_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Colors",
+	"description": "Stupid characters with colored skin lol."
+}
