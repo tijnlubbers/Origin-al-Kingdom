@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"jungle_tribe:members/desc"
+	],
+	"icon": "minecraft:jungle_log",
+	"order": 10,
+	"impact": 3,
+	"name": "Jungle Tribe",
+	"description": "A tribe that's used to living deep in the jungle."
+}

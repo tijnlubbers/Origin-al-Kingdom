@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"jungle_tribe:puppeteer/desc",
+        "jungle_tribe:puppeteer/color"
+	],
+	"icon": "minecraft:armor_stand",
+	"order": 10,
+	"impact": 3,
+	"name": "puppeteer",
+	"description": "You choose the color white."
+}

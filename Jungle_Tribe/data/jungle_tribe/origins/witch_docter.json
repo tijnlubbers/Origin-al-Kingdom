@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"jungle_tribe:witch_docter/desc",
+        "jungle_tribe:witch_docter/color"
+	],
+	"icon": "minecraft:potion",
+	"order": 10,
+	"impact": 3,
+	"name": "Witch Docter",
+	"description": "You choose the color blue."
+}

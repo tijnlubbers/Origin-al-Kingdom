@@ -1,0 +1,19 @@
+{
+	"replace": false,
+  "origins": [
+  {
+    "condition": {
+      "type": "origins:origin",
+      "origin": "jungle_tribe:members",
+      "layer": "origins:origin"
+    },
+    "origins": [
+      "jungle_tribe:masked",
+	    "jungle_tribe:puppeteer",
+      "jungle_tribe:reclaimed",
+      "jungle_tribe:witch_docter"
+    ]
+  }
+ ]
+}
+

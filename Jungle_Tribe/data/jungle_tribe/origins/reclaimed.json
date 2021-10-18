@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"jungle_tribe:reclaimed/desc",
+        "jungle_tribe:reclaimed/color"
+	],
+	"icon": "minecraft:vine",
+	"order": 10,
+	"impact": 3,
+	"name": "Reclaimed",
+	"description": "You choose the color green."
+}

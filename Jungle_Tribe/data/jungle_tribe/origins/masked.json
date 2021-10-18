@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"jungle_tribe:masked/desc",
+        "jungle_tribe:masked/color"
+	],
+	"icon": "minecraft:carved_pumpkin",
+	"order": 10,
+	"impact": 3,
+	"name": "Masked",
+	"description": "You choose the color black."
+}
