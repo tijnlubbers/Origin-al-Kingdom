@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"ghost_cult:spirit/desc",
+        "ghost_cult:spirit/color"
+	],
+	"icon": "minecraft:gray_dye",
+	"order": 10,
+	"impact": 3,
+	"name": "Spirit",
+	"description": "You choose the color green."
+}

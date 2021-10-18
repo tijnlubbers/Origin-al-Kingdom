@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"ghost_cult:colors/desc"
+	],
+	"icon": "minecraft:skeleton_skull",
+	"order": 10,
+	"impact": 3,
+	"name": "Ghost Cult",
+	"description": "Stupid characters that are already dead lol."
+}

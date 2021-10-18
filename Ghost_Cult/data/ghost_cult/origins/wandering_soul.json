@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"ghost_cult:wandering_soul/desc",
+        "ghost_cult:wandering_soul/color"
+	],
+	"icon": "minecraft:light_gray_dye",
+	"order": 10,
+	"impact": 3,
+	"name": "Wandering Soul",
+	"description": "You choose the color white."
+}

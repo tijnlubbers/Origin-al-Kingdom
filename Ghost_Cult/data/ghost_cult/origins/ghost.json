@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"ghost_cult:ghost/desc",
+        "ghost_cult:ghost/color"
+	],
+	"icon": "minecraft:bone_meal",
+	"order": 10,
+	"impact": 3,
+	"name": "Ghost",
+	"description": "You choose the color yellow."
+}

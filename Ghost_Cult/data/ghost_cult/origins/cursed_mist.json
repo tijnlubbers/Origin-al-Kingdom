@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"ghost_cult:cursed_mist/desc",
+        "ghost_cult:cursed_mist/color"
+	],
+	"icon": "minecraft:black_dye",
+	"order": 10,
+	"impact": 3,
+	"name": "Cursed Mist",
+	"description": "You choose the color black."
+}

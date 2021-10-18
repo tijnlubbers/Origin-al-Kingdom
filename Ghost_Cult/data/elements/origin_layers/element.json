@@ -1,0 +1,20 @@
+{
+	"replace": false,
+  "origins": [
+  {
+    "condition": {
+      "type": "origins:origin",
+      "origin": "ghost_cult:colors",
+      "layer": "origins:origin"
+    },
+    "origins": [
+      "ghost_cult:ghost",
+	    "ghost_cult:spirit",
+      "ghost_cult:wandering_soul",
+      "ghost_cult:cursed_mist",
+      "ghost_cult:living_armor"
+    ]
+  }
+ ]
+}
+

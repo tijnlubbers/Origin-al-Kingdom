@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"ghost_cult:living_armor/desc",
+        "ghost_cult:living_armor/color"
+	],
+	"icon": "minecraft:netherite_helmet",
+	"order": 10,
+	"impact": 3,
+	"name": "Living Armor",
+	"description": "You choose the color blue."
+}
