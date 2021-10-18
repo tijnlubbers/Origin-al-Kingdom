@@ -4,7 +4,7 @@
   {
     "condition": {
       "type": "origins:origin",
-      "origin": "color_group:bender",
+      "origin": "color_group:colors",
       "layer": "origins:origin"
     },
     "origins": [
