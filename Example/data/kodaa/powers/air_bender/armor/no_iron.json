@@ -1,0 +1,30 @@
+{
+    "type": "origins:restrict_armor",
+    "name": "§4Lightweight",
+    "description": "In order to use your aerial abilities you need to be light. You cannot wear armor greater than chainmail.",
+    "hidden": false,
+    "head": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_helmet"
+	}
+    },
+    "chest": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_chestplate"
+	}
+    },
+    "legs": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_leggings"
+	}
+    },
+    "feet": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_boots"
+	}		
+    }
+}

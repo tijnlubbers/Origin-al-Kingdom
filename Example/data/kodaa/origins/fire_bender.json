@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"kodaa:fire_bender/flame_hand",
+		"kodaa:fire_bender/fireball",
+		"kodaa:fire_bender/jet",
+		"kodaa:fire_bender/fire_hands",
+		"kodaa:fire_bender/toggle",
+		"kodaa:fire_bender/main_fire",
+		"kodaa:fire_bender/flame",
+		"kodaa:fire_bender/fire_wall",
+		"kodaa:fire_bender/set_fire",
+		"kodaa:fire_bender/strength",
+		"kodaa:fire_bender/resistance",
+		"kodaa:fire_bender/no_shield",
+		"kodaa:fire_bender/self_control",
+		"kodaa:fire_bender/water"
+	],
+	"icon": "minecraft:lava_bucket",
+	"order": 10,
+	"impact": 3,
+	"name": "§6Fire Bender",
+	"description": "Fire benders have the pyrokinetic ability to control fire. Firebending is known for its intense and aggressive attacking style and general lack of adequate defensive moves."
+}

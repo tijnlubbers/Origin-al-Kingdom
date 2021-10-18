@@ -1,0 +1,41 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 2,
+    "max_stacks": 2,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+	"condition": {
+	"type": "origins:or",
+	"conditions": [
+	{
+		"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+						"tag": "kodaa:weapon"
+						}
+					}
+	},
+	{
+		"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+						"tag": "kodaa:ranged_weapons"
+						}
+					}
+	}
+	]
+	},
+	"name": "§4Decisively Defensive",
+	"description": "The key to airbending is finding the path of least resistance. As such airbenders avoid combat wherever possible. You have natural weakness when holding a weapon."
+}

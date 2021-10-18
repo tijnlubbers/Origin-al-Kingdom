@@ -1,0 +1,20 @@
+{
+  "type": "origins:launch",
+  "cooldown": 150,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  },
+  "condition": {
+    "type": "origins:sneaking",
+	"inverted": true
+	},
+  "sound": "minecraft:entity.blaze.shoot",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name": "Launch",
+  "description": "Pressing your primary key uses a fast gust of wind to launch you into the air."
+}

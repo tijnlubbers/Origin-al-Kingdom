@@ -1,0 +1,39 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:change_resource",
+		"resource": "*:air_bender/cloud_resource",
+		"change": -10
+    },
+	"condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+	"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:arrow"
+				}
+			}
+	},
+	{
+	"type": "origins:resource",
+					"resource": "kodaa:air_bender/cloud_resource",
+					"comparison": ">=",
+					"compare_to": 10
+	}
+	]
+	},
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+	"key": {
+        "key": "key.attack",
+        "continuous": false
+    },
+	"name": "Air Arrows",
+	"description": "You can shoot arrows using air without the need for a bow. Attacking with an arrow in hand will use air to fire it."
+}

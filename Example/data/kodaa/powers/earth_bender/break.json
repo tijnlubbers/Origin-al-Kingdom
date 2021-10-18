@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.8
+    },
+	"name": "§2Familiarity",
+	"description": "You have studied the ways of the earth and as such know the best way to harvest each block. You break blocks faster than others."
+}

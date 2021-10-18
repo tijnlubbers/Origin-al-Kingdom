@@ -1,0 +1,24 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name": "§2Rock Punches",
+    "description": "Your punches do more damage and have greater knockback.",
+    "hidden": false,
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "space": "velocity_horizontal_normalized",
+        "set": false,
+        "y": 0.3,
+        "z": 0.8
+    },
+    "cooldown": 0,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:air"
+      }
+    }
+  }
+}

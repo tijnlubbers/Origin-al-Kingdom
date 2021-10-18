@@ -1,0 +1,123 @@
+{
+	"type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "hud_render": {
+		"should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 7
+    }
+    },
+	"over_time": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+		"type": "origins:change_resource",
+		"resource": "*:fire_bender/flame_resource",
+		"change": 1
+    },
+    "interval": 10,
+	"condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+		"type": "origins:fluid_height",
+		"fluid": "minecraft:water",
+		"comparison": "==",
+		"compare_to": 0
+	},
+	{
+		"type": "origins:in_rain",
+		"inverted": true
+	}
+	]
+	}
+	},
+	
+	"death": {
+    
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:change_resource",
+    "resource": "*:fire_bender/flame_resource",
+    "change": -100
+    },
+    "entity_action_respawned": {
+        "type": "origins:change_resource",
+    "resource": "*:fire_bender/flame_resource",
+    "change": -100
+    },
+    "execute_chosen_when_orb": true
+	},
+	
+	"cloud_active_timer": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:fire_bender/flame_resource",
+            "change": -10
+        },
+		"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:resource",
+            "resource": "*:fire_bender/flame_resource",
+            "comparison": ">",
+            "compare_to": 0
+		},
+		{      
+			"type": "origins:power_active",
+			"power": "kodaa:fire_bender/flame_toggle"
+		},
+		{
+			"type": "origins:power_active",
+			"power": "kodaa:fire_bender/toggle",
+			"inverted": true
+		},
+		{
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "==",
+			"compare_to": 0
+		},
+		{
+			"type": "origins:in_rain",
+			"inverted": true
+		}
+	]
+	}
+	},
+	
+	"toggle":{
+      "type":"origins:toggle",
+	  "active_by_default": false,
+      "key":{
+         "key":"key.pickItem",
+         "continuous":false
+      },
+	  "condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "kodaa:fire_bender/toggle",
+					"inverted": true
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:in_rain",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"hidden": true
+}

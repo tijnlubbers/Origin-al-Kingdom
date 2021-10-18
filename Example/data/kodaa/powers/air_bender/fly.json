@@ -1,0 +1,43 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:levitation",
+            "amplifier": 1,
+            "duration": 100
+        }
+    },
+	"condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+		"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:air"
+				}
+			}
+	},
+	{
+		"type": "origins:equipped_item",
+		"equipment_slot": "offhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+			"item": "minecraft:stick"
+			}
+		}
+	}
+	]
+	},
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false,
+        "bar_index": 5
+    },
+	"name": "Whirlwind",
+	"description": "When an entity is hit with your fists while your staff [stick] is in your offhand, you raise them into the air."
+}

@@ -1,0 +1,17 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 2,
+    "max_stacks": 2,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+	"hidden": false,
+	"name": "§4Patience",
+	"description": "Earthbending involves sitting and waiting for the opportune moment to strike. Because of this you see no need to hurry. You have natural slowness."
+}

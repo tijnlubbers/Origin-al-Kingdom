@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "value": 1.25,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:fall_distance",
+	"comparison": ">",
+	"compare_to": "2"
+  },
+  "hidden": true
+}

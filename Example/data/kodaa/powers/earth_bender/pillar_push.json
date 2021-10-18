@@ -1,0 +1,44 @@
+{
+  "type": "origins:launch",
+  "cooldown": 150,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  },
+  "condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+		"type": "origins:sneaking"
+	},
+	{
+		"type": "origins:on_block"
+	},
+	{	
+		"type": "origins:fluid_height",
+		"fluid": "minecraft:water",
+		"comparison": "==",
+		"compare_to": 0
+	},
+	{
+		"type": "origins:equipped_item",
+			"equipment_slot": "feet",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "kodaa:boots"
+				}
+			},
+			"inverted": true
+	}
+	]
+	},
+  "sound": "minecraft:entity.generic.explode",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name": "§2Pillar Push",
+  "description": "When holding shift and pressing your primary key, you lift a pillar out of the ground below you, pushing you up into the air. You deal more damage on the way back down and you will not take damage unless falling a greater distance than the jump height."
+}

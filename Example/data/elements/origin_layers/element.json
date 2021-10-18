@@ -1,0 +1,19 @@
+{
+	"replace": false,
+  "origins": [
+  {
+    "condition": {
+      "type": "origins:origin",
+      "origin": "kodaa:bender",
+      "layer": "origins:origin"
+    },
+    "origins": [
+      "kodaa:fire_bender",
+	  "kodaa:earth_bender",
+	  "kodaa:water_bender",
+	  "kodaa:air_bender"
+    ]
+  }
+ ]
+}
+

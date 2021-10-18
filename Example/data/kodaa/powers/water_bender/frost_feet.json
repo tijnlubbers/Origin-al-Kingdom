@@ -1,0 +1,36 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+	"type": "origins:and",
+	"actions": [
+	{
+		"type": "origins:execute_command",
+	    "command": "execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 50 normal",
+        "permission_level": 4
+	},
+	{
+		"type": "origins:execute_command",
+	    "command": "execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal",
+        "permission_level": 4
+	}
+	]
+	},
+	"condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+		"type": "origins:power_active",
+		"power": "kodaa:water_bender/toggle2"
+	},
+	{
+		"type": "origins:resource",
+		"resource": "kodaa:water_bender/water_resource",
+		"comparison": ">=",
+		"compare_to": 1
+	}
+	]
+	},
+	"interval": 1,
+	"name": "§9Frost Feet",
+	"description": "Pressing the secondary key toggles frost feet, turning water to ice when walking on it. When on land you freeze the moisture in the air underneath your feet, reducing friction and allowing you to run faster."
+}
